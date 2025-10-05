@@ -9,22 +9,8 @@ Este proyecto ejemplifica la aplicación de las mejores prácticas de DevOps al 
 
 🚀 Características Clave
 Integración Continua (CI): Uso de GitHub Actions para pruebas automáticas y validación del código.
-
 Entrega Continua (CD): Deployment automatizado del modelo entrenado como un servicio de API REST (usando Flask o FastAPI).
-
 Seguimiento de Experimentos: Integración con MLflow para registrar modelos, métricas, parámetros e historial de runs.
-
 Versionamiento de Datos y Modelos: Implementación de DVC (Data Version Control) para manejar grandes datasets fuera del repositorio Git.
-
 Contenerización: Uso de Docker para asegurar la reproducibilidad del entorno de entrenamiento e inferencia.
-
 Estructura Modular: Diseño basado en módulos para separar las tareas de data ingestion, data processing y model training.
-
-🛠️ Tecnologías Utilizadas
-Categoría	Herramienta	Propósito
-Orquestación/CI/CD	GitHub Actions	Automatización de builds y deployments.
-Servidor ML	Flask / FastAPI	Creación del endpoint REST para la inferencia del modelo.
-Seguimiento	MLflow	Tracking de experimentos, métricas y registro de modelos.
-Versionamiento	DVC	Versionamiento de datos y modelos grandes.
-Contenerización	Docker	Empaquetado del entorno para producción.
-Lenguaje	Python 3.x	Lenguaje de programación principal.
